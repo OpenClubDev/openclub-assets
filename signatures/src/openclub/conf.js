@@ -28,5 +28,19 @@ module.exports = [
     logoUrl: 'https://openclubdev.github.io/openclub-assets/images/logo/logo-color.png',
     logoAlt: 'OpenClub logo',
     website: 'http://www.openclub.co'
+  },
+  {
+    id: 'matt', // Will be appended to the built templates.
+    name: 'Matt Way',
+    position: 'Lead Developer',
+    welcome: 'Hi there,',
+    introParagraph: 'Thanks for writing up this email.<br/> We are delighted to reply with a responsive template.',
+    contactMain: '<a href="tel:+61421089383"><span>+61 421 089 383</span></a>', // Wrap phone numbers like this to prevent iOS mail from making them blue.
+    contactMail: 'matt@openclub.co',
+    contactSecondary: 'L3, 155 Queen St, Brisbane QLD 4000',
+    logoUrl: 'https://openclubdev.github.io/openclub-assets/images/logo/logo-color.png',
+    logoAlt: 'OpenClub logo',
+    website: 'http://www.openclub.co'
   }
+
 ]
