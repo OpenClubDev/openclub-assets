@@ -26,5 +26,12 @@ module.exports = [
     contactMain: '<a href="tel:+61400456777"><span>+61 400 456 777</span></a>', // Wrap phone numbers like this to prevent iOS mail from making them blue.
     contactMail: 'will@peekal.com',
   }, defaults),
+  Object.assign({}, {
+    id: 'team', // Will be appended to the built templates.
+    name: 'Peekal Team',
+    position: '<font size="-1"><i>Discover top online labels you\'ve never heard of...</i></font>',
+    contactMain: '<a href="http://www.peekal.com/">peekal.com</a>', // Wrap phone numbers like this to prevent iOS mail from making them blue.
+    contactMail: 'info@peekal.com',
+  }, defaults),
 
 ]
