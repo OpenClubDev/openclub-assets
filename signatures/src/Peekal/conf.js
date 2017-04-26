@@ -22,6 +22,7 @@ module.exports = [
   Object.assign({}, {
     id: 'will', // Will be appended to the built templates.
     name: 'Will Hackett',
+    position: 'Keyboard Warrior',
     contactMain: '<a href="tel:+61435844115"><span>+61 400 456 777</span></a>', // Wrap phone numbers like this to prevent iOS mail from making them blue.
     contactMail: 'will@peekal.com',
   }, defaults),
