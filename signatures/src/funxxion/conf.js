@@ -15,8 +15,15 @@ module.exports = [
   Object.assign({}, {
     id: 'will', // Will be appended to the built templates.
     name: 'Will Hackett',
-    position: 'Founder',
+    position: 'Director',
     contactMain: '<a href="tel:+61400456777"><span>+61 400 456 777</span></a>', // Wrap phone numbers like this to prevent iOS mail from making them blue.
     contactMail: 'will@funxxion.com',
+  }, defaults),
+  Object.assign({}, {
+    id: 'matt', // Will be appended to the built templates.
+    name: 'Matt McDougall',
+    position: 'Director',
+    contactMain: '<a href="tel:+61420620403"><span>+61 420 620 403</span></a>', // Wrap phone numbers like this to prevent iOS mail from making them blue.
+    contactMail: 'matt@funxxion.com',
   }, defaults),
 ]
